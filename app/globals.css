@@ -1,0 +1,127 @@
+/* ---------------------------
+   1) CSS RESET (оптимізований)
+---------------------------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* ---------------------------
+   2) ГЛОБАЛЬНІ ТЕМИ / ЗМІННІ
+---------------------------- */
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/InterVariable.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* Backgrounds */
+  --bg-primary: #050505;
+
+  /* Main colors */
+  --text-white: #ffffff;
+  --text-gray: #94a3b8;
+
+  /* Шрифти */
+  --font: 'Inter', sans-serif;
+}
+
+/* Темна тема (якщо колись знадобиться) */
+/*
+[data-theme="dark"] {
+  --bg: #181818;
+  --text-main: #fafafa;
+  --text-light: #bfbfbf;
+}
+*/
+
+/* ---------------------------
+   3) БАЗОВА ТИПОГРАФІЯ
+---------------------------- */
+body {
+  font-family: var(--font);
+  background: var(--bg-primary);
+  color: var(--text-gray);
+  overflow-x: hidden;
+}
+
+/* Заголовки */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  line-height: 2;
+  color: var(--text-white);
+}
+
+p {
+  color: var(--text-gray);
+}
+
+/* ---------------------------
+   4) КНОПКИ
+---------------------------- */
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+
+button:disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+
+/* ---------------------------
+   5) ПОСИЛАННЯ
+---------------------------- */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ---------------------------
+   6) ФОРМИ
+---------------------------- */
+input,
+select,
+textarea {
+  font-family: inherit;
+  outline: none;
+}
+
+/* ---------------------------
+   7) ЗОБРАЖЕННЯ
+---------------------------- */
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* ---------------------------
+  8) КОНТЕЙНЕР СЕКЦІЙ
+---------------------------- */
+section {
+  padding: 90px 0;
+}

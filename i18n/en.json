@@ -1,0 +1,61 @@
+{
+  "nav": { "whyWe": "Why Us", "contacts": "Contacts" },
+  "hero": {
+    "badge": "MECHorbit for suppliers",
+    "titleTop": "Your spare parts",
+    "titleBottom": "to every auto service",
+    "descriptionBrand": "MECHorbit",
+    "descriptionText": "is an operating system where auto services work every day. Become the \"default supplier\". While competitors are waiting for a call, the mechanic is already ordering from you in one click.",
+    "button": "Free integration",
+    "note": "* Direct access to 1000+ auto services"
+  },
+  "offer": {
+    "title": "What we offer?",
+    "subtitle": "We remove all barriers between your warehouse and the auto service order.",
+    "nativeTitle": "Native integration into workflow",
+    "nativeText": "Your spare parts and prices appear inside the MECHorbit interface when a mechanic searches for a needed part. This is not a banner. It is part of their daily tool. Ordering from you becomes the fastest and most logical choice.",
+    "aiTitle": "Effortless integration (AI-Powered)",
+    "aiText": "No API? No problem. You don't need to develop anything. Just give us access to your B2B portal (login/password). Our AI agents analyze your prices and stock in real-time and stream them into our system. Zero technical effort from your side."
+  },
+  "whyChoose": {
+    "label": "DEMAND GUARANTEE",
+    "title": "Why auto services choose MECHorbit?",
+    "subtitle": "Your sales depend on the activity of our platform. That's why auto services don't just use it, they become dependent on MECHorbit:",
+    "clientsTitle": "We give them free clients",
+    "clientsText": "Our mobile app for car owners is a constant stream of \"hot\" leads for auto services.",
+    "moneyTitle": "We find their lost money",
+    "moneyText": "Our AI cameras show real losses from downtime, motivating them to optimize their processes.",
+    "simpleTitle": "We make their work easier",
+    "simpleText": "MECHorbit replaces 5–6 programs with one convenient tool.",
+    "bottomText": "We create the most effective auto services in the country. And it is easiest for them to order parts from you.",
+    "requests": "New requests per day",
+    "efficiency": "Actual working hours",
+    "orderTitle": "Parts order",
+    "brand": "Your Brand",
+    "delivery": "Delivery: today 3:00 PM",
+    "orderButton": "Order"
+  },
+  "way": {
+    "title": "The path of least resistance",
+    "subtitle": "One click vs. a phone call. One click always wins. See the process through the eyes of an auto service:",
+    "step1Title": "1. Diagnostics created",
+    "step1Text": "The mechanic in the mobile app adds to the order ",
+    "step1Accent": "\"Brake pads\".",
+    "step2Title": "2. Result",
+    "step2Text": "The system instantly shows:",
+    "step2Accent": "photo of the part, catalog, availability, brand, price",
+    "step3Title": "3. Orders in one click",
+    "step3Text1": "Clicks the \"Order\" button. That's it.",
+    "step3Text2": "The order automatically goes to you.",
+    "bottomAccent": "Question:",
+    "bottomQuestion": "Will they close the app, search for the phone, call your competitor, wait on the line… if the simplest, fastest, and most reliable way is just one click?"
+  },
+  "request": {
+    "title": "Ready to get more orders?",
+    "text": "Start with a simple step. Request a free integration of your catalog into the MECHorbit ecosystem and see how it works. No obligations.",
+    "buttonFull": "Request a free integration",
+    "buttonShort": "Free integration",
+    "note": "Response within 24 hours."
+  },
+  "footer": { "copyright": " MECHorbit. All rights reserved." }
+}

@@ -1,0 +1,309 @@
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  /* min-height: 100vh; */
+  display: flex;
+  align-items: center;
+  padding: 5vw 0;
+  /* padding: 7vw 0; */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  overflow-x: visible;
+  overflow-y: hidden;
+}
+
+.contentWrapper {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  max-width: 1540px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.content {
+  padding: 15px 24px 15px 0;
+  /* width: 652px; */
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 5px 12px;
+  height: 26px;
+  /* width: 269px; */
+
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
+
+  font-size: 12px;
+  font-weight: 600;
+  color: #60a5fa;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+
+.badge::before {
+  content: '';
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #9ef01a;
+}
+
+.title {
+  margin-bottom: 24px;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: -1.5px;
+  margin-bottom: 75px;
+}
+
+.gradient {
+  background: linear-gradient(90deg, #3b82f6 0%, #a855f7 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.white {
+  color: var(--text-white);
+}
+
+.description {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 42px;
+  width: 523px;
+}
+
+.subDescription {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #fff;
+}
+
+.button {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: #3b82f6;
+  box-shadow: 0 0 20px 0 rgba(59, 130, 246, 0.3);
+
+  padding: 13px 23px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  margin-bottom: 32px;
+}
+
+.button:hover {
+  background: #1863db;
+}
+
+.iconZap {
+  width: 18px;
+  height: 18px;
+  color: #facc15;
+}
+
+.note {
+  color: #64748b;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.33333;
+}
+
+.imageWrapper {
+  position: relative;
+  /* width: 867px; */
+  max-width: 100%;
+  height: 653px;
+  border-radius: 36px;
+  box-shadow: 0 40px 80px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.frame {
+  display: none;
+}
+
+.mechOrbitLabel {
+  position: absolute;
+  top: 26px;
+  left: 26px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  width: 172px;
+  height: 32px;
+  border-radius: 9px;
+  background: rgba(23, 14, 14, 0.27);
+  padding: 0 8px;
+  box-sizing: border-box;
+}
+
+.mech {
+  color: #9ef01a;
+  text-shadow: 3.125px 4.688px 6.25px rgba(0, 0, 0, 0.53);
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.orbit {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.connected {
+  position: absolute;
+  top: 58px;
+  left: 35px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.overlayCenter {
+  position: absolute;
+  top: 132px;
+  right: 83px;
+}
+
+.overlayBottom {
+  position: absolute;
+  bottom: 22px;
+  right: 90px;
+}
+
+.overlayTop {
+  position: absolute;
+  top: 44px;
+  right: 383px;
+}
+
+.overlayTopSecond {
+  position: absolute;
+  top: 55px;
+  right: 235px;
+}
+
+.overlayTopThird {
+  position: absolute;
+  top: 62px;
+  right: 90px;
+}
+
+.contentWrapper::before {
+  content: '';
+  position: absolute;
+  bottom: -48%;
+  left: -2%;
+  width: 500px;
+  height: 500px;
+  border-radius: 9999px;
+  background: rgba(30, 58, 138, 0.15);
+  filter: blur(50px);
+  z-index: 0;
+}
+
+@media only screen and (max-width: 1279.98px) {
+  .hero {
+    position: relative;
+    padding: 111px 0 39px 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contentWrapper {
+    max-width: 390px;
+    padding: 0 24px;
+    grid-template-columns: 1fr;
+  }
+
+  .badge {
+    display: none;
+  }
+
+  .title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 39.6px;
+    letter-spacing: -0.9px;
+    /* width: 342px; */
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .content {
+    padding: 12px 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .imageWrapper {
+    display: none;
+  }
+
+  .description {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.25px;
+    width: 100%;
+  }
+
+  .subDescription {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29.25px;
+    color: #fff;
+  }
+
+  .mechOrbitLabel {
+    display: none;
+  }
+
+  .frame {
+    display: block;
+    margin-bottom: 40px;
+    border-radius: 18px;
+    width: 100%;
+  }
+
+  .button {
+    margin-bottom: 12px;
+  }
+
+  .blurCircle {
+    bottom: 213px;
+    left: 25px;
+    width: 258px;
+    height: 258px;
+
+    border-radius: 999px;
+    background: rgba(59, 130, 246, 0.1);
+    filter: blur(32px);
+  }
+}
