@@ -32,6 +32,7 @@ export default function Header({ lang, t }: HeaderProps) {
   };
 
   const changeLanguage = (newLang: string) => {
+    localStorage.setItem('preferredLang', newLang);
     const newPath = pathname.replace(/^\/(ua|ru|en)\b/, '') || '/';
     router.push(`/${newLang}${newPath === '/' ? '' : newPath}`);
   };
